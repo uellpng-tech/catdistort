@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>CatDistort</title>
+</head>
+<body>
+
+    <header class="topo">
+
+        <div class="menu">
+            <div class="gatomenu">
+                <img src="assets/imagens/gatotitulo.png">
+            </div>
+            <div class="caminhos">
+                <h1>CatDistort</h1>
+                <a href="assets/arquivos/CERTIFICADO DE CONSAGRAÇÃO MÁGICA FELINA.pdf" target="_blank">Autorização de mágico</a>
+                <a href="https://github.com/uellpng-tech" target="_blank">Serviços externos</a>
+            </div>
+        </div>
+
+        <div class="linha"></div>
+
+    </header>
+
+    <main class="principal">
+
+        <div class="gato">
+            <img id="gato" src="assets/imagens/gato.png" >
+        </div>
+
+        <div class="ladodireito">
+
+            <div class="titulo"><h1>Melzinho vai transformar <br> sua imagem</h1></div>
+            
+            <div class="upload" id="areaUpload">
+                    
+                <button id="btnUpload">Faça upload</button>
+                <span id="texto">ou arraste a imagem</span>
+
+                <input type="file" id="upload" accept="image/*" hidden>
+
+                <canvas id="canvas" style="display: none;"></canvas>
+                <button id="download" style="display: none;">Baixar imagem</button>
+                <span id="textodownload" style="display: none;">clique na imagem para trocar</span>
+                
+                </div>
+        </div>
+
+    </main>
+    
+</body>
+<script src="js/app.js"></script>
+</html>
