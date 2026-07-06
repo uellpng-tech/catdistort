@@ -1,59 +1,21 @@
-🐱 CatDistort
+# CatDistort
 
-CatDistort é uma aplicação web divertida que permite fazer upload de imagens e piorar as imagens com o intuito de criar memes.
+O CatDistort é um app web destinado a entretenimento. O catdistort tem o intuito de criar memes partindo do conceito de piorar imagens, hoje muitos memes utilizam essa mecânica para deixar um meme já conhecido mais engraçado, além disso o catdistort também foi criado para interagir de forma ludica, partindo da ideia de que um gato mágico possui a mágia de piorar imagens.
 
-📸 Preview
+interface:<br>
+![Preview do projeto](assets/gifs/interface.gif)
 
-![Preview do projeto](assets/imagens/preview.png)
+## Funcionalidades
 
-🚀 Sobre o projeto
+- Upload de imagens
+- Drag and drop (arrastar e soltar)
+- Dowload de imagem editada
+-I nterface temática
 
-Este projeto foi desenvolvido como prática de:
+## Estrutura do projeto
 
--Manipulação de imagens com JavaScript
--Uso do Canvas (HTML5)
--Upload de arquivos
--Interação com o usuário
--Organização de projeto front-end
+O projeto conta com uma estrutura bem simples. A estrutura do projeto é bem simples, [assets](assets) é a pasta aonde fica todas as mídias necessárias para o funcionamento correto do catdistort, [css](css) a pasta guarda toda parte do catdistort em CSS no arquivo [style.css](style.css), [js](js) a pasta guarda todas as funções do catdistort que são feitas em JavaScript dentro do arquivo [app.js](app.js), [index.html](index.html) o arquivo index é responsável pelo codigo fonte em HTML, possibilita com que possamos conectar tudo e construir nosso app web, e por ultimo o README.md que é responsável por explicar o projeto e suas funcionalidades, servindo de guia e apoio para a introdução ao projeto.
 
-A ideia é a criação de memes em conjunto a interação do usuario com a interface.
-
-🚀 Como executar o projeto
+## Como executar o projeto
 
 1. Abra o arquivo `index.html` diretamente no navegador ou clique duas vezes no arquivo.
-
-📌 Funcionalidades
-
--Upload de imagens
--Drag and drop (arrastar e soltar)
--Dowload de imagem editada
--Interface temática
-
-
-🛠️ Tecnologias usadas
-
--HTML5
--CSS3
--JavaScript (Vanilla)
--Canvas API
-
-📂 Estrutura do projeto
-CatDistort/
-
-assets/
-    arquivos/
-    imagens/
-    sons/
-css/
-    style.css
-js/
-    app.js
-
-.gitignore
-index.html
-LICENSE
-REAFME.md
-
-📄 Licença
-
-Este projeto é apenas para fins educacionais.
