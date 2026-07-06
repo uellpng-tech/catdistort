@@ -10,7 +10,7 @@ interface:<br>
 - Upload de imagens
 - Drag and drop (arrastar e soltar)
 - Dowload de imagem editada
--I nterface temática
+- Interface temática
 
 ## Estrutura do projeto
 
